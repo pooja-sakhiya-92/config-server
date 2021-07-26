@@ -5,7 +5,7 @@ spring:
       server:
         git:
           uri:
-            file:///E:/Projects/learning/HomeManagement/home-local-repo
+            file:///E:/Projects/learning/HomeManagement-GIT/home-local-repo
   application:
     name: config-server
 
