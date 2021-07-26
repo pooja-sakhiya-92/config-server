@@ -1,0 +1,15 @@
+# Spring properties
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri:
+            file:///E:/Projects/learning/HomeManagement/home-local-repo
+  application:
+    name: config-server
+
+# HTTP Server
+server:
+  port: 8888   # HTTP (Tomcat) port
+
