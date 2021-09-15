@@ -12,6 +12,7 @@ public class ConfigServerApplication {
 	{
 		System.setProperty("spring.config.name", "config-server");
 		SpringApplication.run(ConfigServerApplication.class, args);
+		System.out.println("Application has started");
 	}
 
 }
